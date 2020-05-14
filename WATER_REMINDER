@@ -1,0 +1,10 @@
+import time
+from plyer import notification
+
+def main():
+	notification.notify(
+		title='PLEASE DRINK WATER,NOW',
+		message='required for a healty growth',
+		timeout=10)
+main()
+ 
